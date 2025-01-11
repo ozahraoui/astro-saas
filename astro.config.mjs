@@ -2,10 +2,9 @@ import { defineConfig } from 'astro/config';
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
-vite: {
+  vite: {
     plugins: [tailwindcss()],
   },
-    // add yur domain name here
-   site: 'https://lexingtonthemes.com',
+  site: 'https://solutions4younow.site', // Replace with your actual domain
   integrations: [sitemap()]
 });
